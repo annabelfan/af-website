@@ -44,7 +44,7 @@ about:
 
   button:
     icon: "icon-smile-fill"
-    btnText: "About Me"
+    btnText: "Projects"
     URL: "https://www.linkedin.com/in/annabelfan/"
   image:
     x: "img/who-am-i/user-picture.png"
@@ -93,6 +93,47 @@ experience:
     - title: "Research Assistant"
       company: "VisCN Lab, University of Toronto Scarborough"
       duration: "May 2016 - Sept 2020"
+
+# Projects
+projects:
+  title: "Recent Projects"
+  enable: true
+
+  works:
+    - title: "Jumbled Jungle, Perceptual Research Game"
+      description: "Mobile app game implementation of an ensemble perception task."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See Video"
+        URL: "https://www.youtube.com/watch?v=HQFVxtWvwuI&t=20s"
+      image:
+        x: "img/works/jumbled-jungle2.jpg"
+        _2x: "img/works/jumbled-jungle2@2x.jpg"
+      is_even: true
+
+    - title: "Grasping of Real-World Objects Is Not Biased by Ensemble Perception"
+      description: "Frontiers in Psychology publication, on the influence of ensemble processing on grasping behaviour (April 2021)."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See Article"
+        URL: "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.597691/full"
+      image:
+        x: "img/works/ensemble-grasp-study-figure.svg"
+        _2x: "img/works/ensemble-grasp-study-figure.svg"
+      is_even: false
+
+    - title: "University of Toronto PsychHacks 2019"
+      description: "Organized the first graduate level psychology hackathon at the University of Toronto."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See Projects"
+        URL: "https://github.com/psychhack2019"
+      image:
+        x: "img/works/psychHacks-2019.jpg"
+        _2x: "img/works/psychHacks-2019@2x.jpg"
+      is_even: true
+
+
 
 # Client & Work
 client_and_work:

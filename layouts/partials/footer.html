@@ -3,6 +3,8 @@
     <div class="footer__left">
       <div class="footer__copy">
         {{ .Site.Params.footer.copyright }}
+        <br> <br>
+        {{ .Site.Params.footer.credits }}
       </div>
     </div>
     <div class="footer__links">
@@ -12,7 +14,7 @@
         </li>
         {{ range .Site.Menus.footer }}
         <li class="nav-item">
-          <a class="nav-link" href="{{ .URL  }}">{{ .Name | upper }}</a> 
+          <a class="nav-link" href="{{ .URL  }}">{{ .Name | upper }}</a>
         </li>
         {{ end }}
       </ul>

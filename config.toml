@@ -69,3 +69,4 @@ theme = "raditian-free-hugo-theme"
 
   [params.footer]
       copyright = "© Annabel Wing-Yan Fan. All rights reserved."
+      credits = "Portrait photo credit: Raffles Zhu; VR 3D Art credit: Alzea Arafat"
